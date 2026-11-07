@@ -4,7 +4,7 @@
 #include <malloc.h>
 #include <ogcsys.h>
 #include <gccore.h>
-#include <usb.h>
+#include <ogc/usb.h>
 
 #include "hci.h"
 #include "btmemb.h"

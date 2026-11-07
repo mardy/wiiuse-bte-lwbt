@@ -17,10 +17,10 @@
 		#include <ogcsys.h>
 		#include "bte.h"
 		#include "network.h"
-		#include "lwp_queue.h"
-		#include "asm.h"
-		#include "processor.h"
-		#include "lwp_wkspace.h"
+		#include <ogc/lwp_queue.h>
+		#include <ogc/machine/asm.h>
+		#include <ogc/machine/processor.h>
+		#include <ogc/lwp_wkspace.h>
 	#else
 	#endif
 #endif

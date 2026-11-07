@@ -1,8 +1,8 @@
 #ifndef __LWP_WKSPACE_INL__
 #define __LWP_WKSPACE_INL__
 
-#include "lwp_wkspace.h"
-#include "lwp_heap.h"
+#include <ogc/lwp_wkspace.h>
+#include <ogc/lwp_heap.h>
 
 static __inline__ void* __lwp_wkspace_allocate(u32 size)
 {

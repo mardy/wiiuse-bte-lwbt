@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <lwp_wkspace.inl>
+#include "lwp_wkspace.inl"
 
 #include "definitions.h"
 #include "wiiuse_internal.h"

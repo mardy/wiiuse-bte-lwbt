@@ -35,10 +35,10 @@ distribution.
 #include <time.h>
 #include <unistd.h>
 
-#include "asm.h"
-#include "processor.h"
+#include <ogc/machine/asm.h>
+#include <ogc/machine/processor.h>
 #include "bte.h"
-#include "conf.h"
+#include <ogc/conf.h>
 #include "ir.h"
 #include "speaker.h"
 #include "dynamics.h"
@@ -47,7 +47,7 @@ distribution.
 #include "wiiuse_internal.h"
 #include "wiiuse/wpad.h"
 
-#include "ogcsys.h"
+#include <ogcsys.h>
 
 #define MAX_STREAMDATA_LEN				20
 #define EVENTQUEUE_LENGTH				16

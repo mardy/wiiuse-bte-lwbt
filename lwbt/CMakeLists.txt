@@ -9,6 +9,6 @@ add_library(bte STATIC
 	physbusif.c
 )
 
-target_link_libraries(bte PRIVATE libogc_inc)
+target_link_libraries(bte PRIVATE wiiuse_bte_lwbt_inc)
 
-libogc_install_lib(bte)
+wiiuse_bte_lwbt_install_lib(bte)

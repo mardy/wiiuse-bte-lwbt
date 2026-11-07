@@ -56,8 +56,9 @@
 #define __BT_ARCH_H__
 
 #include "bt.h"
-#include "asm.h"
-#include "processor.h"
+
+#include <ogc/machine/asm.h>
+#include <ogc/machine/processor.h>
 
 #define MEM_ALIGNMENT			4
 #define MEM_ALIGN(mem)			((void*)(((u32_t)(mem)+MEM_ALIGNMENT-1)&~(u32_t)(MEM_ALIGNMENT-1)))

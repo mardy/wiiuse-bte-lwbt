@@ -1,4 +1,3 @@
-# libogc
-C Library for Wii and Gamecube homebrew
+# wiiuse-bte-lwbt
 
-[![C/C++ CI](https://github.com/devkitPro/libogc/actions/workflows/ci.yml/badge.svg)](https://github.com/devkitPro/libogc/actions/workflows/ci.yml)[![Build documentation](https://github.com/devkitPro/libogc/actions/workflows/doxygen.yaml/badge.svg)](https://github.com/devkitPro/libogc/actions/workflows/doxygen.yaml)
+Traditional implementation of libwiiuse.a and libbte.a from libogc, using the lwbt backend.

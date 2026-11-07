@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "asm.h"
-#include "processor.h"
+#include <ogc/machine/asm.h>
+#include <ogc/machine/processor.h>
 
 #include "bt.h"
 #include "btmemb.h"

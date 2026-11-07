@@ -15,6 +15,6 @@ add_library(wiiuse STATIC
 	motion_plus.c
 )
 
-target_link_libraries(wiiuse PRIVATE libogc_inc)
+target_link_libraries(wiiuse PRIVATE wiiuse_bte_lwbt_inc)
 
-libogc_install_lib(wiiuse)
+wiiuse_bte_lwbt_install_lib(wiiuse)
